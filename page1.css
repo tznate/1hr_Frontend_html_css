@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 110vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(74, 131, 255, 0.8),
+      rgba(34, 30, 248, 0.84)
+    ),
+    url("back.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+}
+.but1 {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  padding: 60px 34px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  top: 20rem;
+  left: 30rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.but1:hover {
+  color: #fff;
+  background-image: linear-gradient(
+    rgba(255, 74, 74, 0.8),
+    rgba(248, 99, 30, 0.84)
+  );
+}
+.but2 {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+  padding: 60px 34px;
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+  border-radius: 50%;
+  top: 11rem;
+  left: 60rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.but2:hover {
+  color: #fff;
+  background-image: linear-gradient(
+    rgba(140, 255, 74, 0.8),
+    rgba(66, 248, 30, 0.84)
+  );
+}

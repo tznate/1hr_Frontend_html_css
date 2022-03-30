@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  min-height: 110vh;
+  width: 100%;
+  background-image: linear-gradient(
+      rgba(74, 131, 255, 0.9),
+      rgba(34, 30, 248, 0.9)
+    ),
+    url("back.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+}
+.name {
+  position: absolute;
+  width: 186px;
+  height: 54px;
+  left: 40%;
+  top: 4rem;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.text {
+  position: absolute;
+  width: 80rem;
+  height: 54px;
+  left: 10rem;
+  top: 10rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.qname {
+  position: absolute;
+  width: 80rem;
+  height: 54px;
+  left: 23rem;
+  top: 20rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.noq {
+  position: absolute;
+  width: 80rem;
+  height: 54px;
+  left: 15rem;
+  top: 30rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.qname .nin input[type="text"] {
+  width: 20rem;
+  border: 2px solid #aaa;
+  border-radius: 1rem;
+  margin: 17.5rem 21.7rem;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.qname .nin input[type="text"]:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
+.noq .qin input[type="text"] {
+  width: 20rem;
+  border: 2px solid #aaa;
+  border-radius: 1rem;
+  margin: 0rem 12rem;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  font-weight: 700;
+}
+.noq .qin input[type="text"]:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 8px 0 dodgerblue;
+}
